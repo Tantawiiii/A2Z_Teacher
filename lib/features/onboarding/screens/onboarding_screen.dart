@@ -66,7 +66,7 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
                   //skip
                   GestureDetector(
                     onTap: () {
-                      context.pushNamed(Routes.getStartedScreen);
+                      context.pushNamed(Routes.loginScreen);
                     },
                     child: Text(
                       StringsTexts.txtSkip,
@@ -84,7 +84,7 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
                   onLastPage
                       ? GestureDetector(
                           onTap: () {
-                            context.pushNamed(Routes.getStartedScreen);
+                            context.pushNamed(Routes.loginScreen);
                           },
                           child: Text(
                             StringsTexts.txtDone,
