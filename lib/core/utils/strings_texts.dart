@@ -2,12 +2,12 @@
 
 class StringsTexts  {
 
-   static const String titleOnBoard1 = "Discover Your Learning Journey";
-   static const String titleOnBoard3 = "Your Path to Success Starts Here";
-   static const String titleOnBoard2 = "Achieve More, Learn Better";
-   static const String desOnBoard1 = "Our platform offers a diverse range of courses and interactive content that adapts to your unique learning style.";
-   static const String desOnBoard3 = "Our curated content and personalized learning paths are designed to help you achieve your goals.";
-   static const String desOnBoard2 = "Our platform is designed to help you reach your full potential. Benefit from personalized recommendations, progress tracking, and a supportive community of learners.";
+   static const String titleOnBoard1 = "Welcome to A2z Platform";
+   static const String titleOnBoard3 = "Interactive Lesson Plans";
+   static const String titleOnBoard2 = "Ready to Teach?";
+   static const String desOnBoard1 = "Empowering educators with the tools they need to succeed.";
+   static const String desOnBoard3 = "Create and share dynamic lesson plans that engage and inspire your students.";
+   static const String desOnBoard2 = "Login now and revolutionize your teaching experience with A2Z Platform.";
 
    static const String txtSkip = "Skip";
    static const String txtNext = "Next";

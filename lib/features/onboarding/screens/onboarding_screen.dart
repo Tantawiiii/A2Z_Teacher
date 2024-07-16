@@ -6,7 +6,7 @@ import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 
 import '../../../core/routing/routers.dart';
 import '../../../core/theming/text_style.dart';
-import '../../../core/utils/StringsTexts.dart';
+import '../../../core/utils/strings_texts.dart';
 import '../../../core/utils/colors_code.dart';
 import '../../../core/utils/images_paths.dart';
 import '../widgets/build_onboard_screen.dart';
@@ -42,19 +42,16 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
               },
               children: const [
                 BuildOnboardingScreen(
-                  imageHeaderPath: ImagesPaths.imgHeaderOnBoarding1,
                   lottiePath: ImagesPaths.animBodyOnBoarding1,
                   titleBoard: StringsTexts.titleOnBoard1,
                   desBoard: StringsTexts.desOnBoard1,
                 ),
                 BuildOnboardingScreen(
-                  imageHeaderPath: ImagesPaths.imgHeaderOnBoarding2,
                   lottiePath: ImagesPaths.animBodyOnBoarding2,
                   titleBoard: StringsTexts.titleOnBoard2,
                   desBoard: StringsTexts.desOnBoard2,
                 ),
                 BuildOnboardingScreen(
-                  imageHeaderPath:ImagesPaths.imgHeaderOnBoarding3,
                   lottiePath: ImagesPaths.animBodyOnBoarding1,
                   titleBoard: StringsTexts.titleOnBoard3,
                   desBoard: StringsTexts.desOnBoard3,
