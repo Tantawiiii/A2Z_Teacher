@@ -9,26 +9,24 @@ import '../../../core/theming/text_style.dart';
 class BuildOnboardingScreen extends StatelessWidget {
   const BuildOnboardingScreen(
       {super.key,
-      required this.imageHeaderPath,
+
       required this.lottiePath,
       required this.titleBoard,
       required this.desBoard});
 
-  final String imageHeaderPath, lottiePath, titleBoard, desBoard;
+  final String  lottiePath, titleBoard, desBoard;
 
   @override
   Widget build(BuildContext context) {
     return Column(
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
-        //Image.asset(imageHeaderPath),
-        //verticalSpace(10.h),
         Lottie.asset(
           lottiePath,
           width: 300.w,
           repeat: true,
         ),
-        verticalSpace(40.h),
+        verticalSpace(60.h),
         Text(
           titleBoard,
           style: TextStyles.font24BlueBold,

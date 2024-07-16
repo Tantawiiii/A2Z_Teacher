@@ -1,5 +1,5 @@
-
 import 'package:a2z_teacher/core/routing/routers.dart';
+import 'package:a2z_teacher/features/login/ui/screens/login_screen.dart';
 import 'package:flutter/material.dart';
 
 import '../../features/onboarding/screens/onboarding_screen.dart';
@@ -10,6 +10,8 @@ class AppRouter {
       case Routes.onBoardingScreen:
         return MaterialPageRoute(builder: (_) => const OnBoardingScreen());
 
+      case Routes.loginScreen:
+        return MaterialPageRoute(builder: (_) => const LoginScreen());
 
       default:
         return MaterialPageRoute(

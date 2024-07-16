@@ -6,6 +6,7 @@
 // tree, read text, and verify that the values of widget properties are correct.
 
 import 'package:a2z_teacher/a2z_teacher.dart';
+import 'package:a2z_teacher/core/routing/app_router.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
@@ -13,7 +14,7 @@ import 'package:flutter_test/flutter_test.dart';
 void main() {
   testWidgets('Counter increments smoke test', (WidgetTester tester) async {
     // Build our app and trigger a frame.
-    await tester.pumpWidget(const A2ZTeacher());
+    await tester.pumpWidget( A2ZTeacher(appRouter: AppRouter(),));
 
     // Verify that our counter starts at 0.
     expect(find.text('0'), findsOneWidget);

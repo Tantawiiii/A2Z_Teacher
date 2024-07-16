@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 
 import '../../../core/routing/routers.dart';
 import '../../../core/theming/text_style.dart';
-import '../../../core/utils/StringsTexts.dart';
+import '../../../core/utils/strings_texts.dart';
 import '../../../core/utils/colors_code.dart';
 
 class GetStartedButton extends StatelessWidget {

@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import '../../../../core/helpers/app_regex.dart';
 import '../../../../core/helpers/spacing.dart';
 
-import '../../../../core/utils/StringsTexts.dart';
+import '../../../../core/utils/strings_texts.dart';
 import '../../../../core/widgets/build_text_form_field.dart';
 import 'build_password_validatons.dart';
 

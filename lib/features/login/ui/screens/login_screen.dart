@@ -4,7 +4,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 import '../../../../core/helpers/spacing.dart';
 import '../../../../core/theming/text_style.dart';
-import '../../../../core/utils/StringsTexts.dart';
+import '../../../../core/utils/strings_texts.dart';
 import '../../../../core/widgets/build_button.dart';
 import '../widgets/build_email_and_password.dart';
 
