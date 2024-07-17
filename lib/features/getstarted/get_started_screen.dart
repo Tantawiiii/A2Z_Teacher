@@ -1,4 +1,5 @@
 
+import 'package:a2z_teacher/core/helpers/spacing.dart';
 import 'package:a2z_teacher/features/getstarted/widgets/getstarted_button.dart';
 import 'package:a2z_teacher/features/getstarted/widgets/teacher_image_text_widget.dart';
 
@@ -21,7 +22,7 @@ class GetStartedScreen extends StatelessWidget {
             child:  Column(
               children: [
                 const TeacherImageTextWidget(),
-                //SizedBox(height: 14.h,),
+                verticalSpace(40.h),
                 Padding(
                   padding:  EdgeInsetsDirectional.symmetric(horizontal: 20.w),
                   child: Column(
